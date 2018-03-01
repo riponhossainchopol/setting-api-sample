@@ -7,3 +7,5 @@ add_action('admin_init','general_ripon');
 function ripon_test(){
     echo '<input type="text" class="widefat" name="theme_options" value="'.get_option('theme_options').'" />';
 }
+//index.php
+<?php echo get_option('theme_options')?>
